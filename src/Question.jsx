@@ -15,7 +15,7 @@ const Question = ({ id, title, info, activeId, toggleQuestion }) => {
           {isActive ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
-      {isActive && <p>{info}</p>}
+      {isActive && <p className='more'>{info}</p>}
     </article>
   )
 }
